@@ -1,0 +1,31 @@
+name: ilk_uygulamam
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  supabase_flutter: ^2.9.1
+  flutter_tts: ^4.0.2
+  speech_to_text: ^6.6.2
+
+  # YENİ EKLENEN PAKETLER
+  http: ^1.2.2             # Python sunucusuna internet isteği atmak için
+  audioplayers: ^6.0.0     # Sunucudan gelen ses dosyalarını çalmak için
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
