@@ -163,7 +163,7 @@ class _AnaEkranDurumu extends State<AnaEkran> with TickerProviderStateMixin {
     final butonBoyutu = ekranGenisligi * 0.35;
 
     return Scaffold(
-      backgroundColor: Colors.grey.shade300, // Arkaplan bir tık daha koyu
+      backgroundColor: Colors.grey.shade300,
       body: SafeArea(
         child: Column(
           children: [
@@ -175,7 +175,7 @@ class _AnaEkranDurumu extends State<AnaEkran> with TickerProviderStateMixin {
                 style: TextStyle(
                     fontWeight: FontWeight.bold,
                     fontSize: 24,
-                    color: const Color(0xFF00897B), // Başlık rengi ana renkle uyumlu
+                    color: const Color(0xFF00897B),
                     letterSpacing: 1.2),
               ),
             ),
@@ -217,7 +217,7 @@ class _AnaEkranDurumu extends State<AnaEkran> with TickerProviderStateMixin {
                   boxShadow: [
                     // Gölge biraz daha belirgin
                     BoxShadow(
-                      color: const Color.fromARGB(31, 0, 0, 0), // DÜZELTİLDİ
+                      color: const Color.fromARGB(31, 0, 0, 0),
                       blurRadius: 25,
                       spreadRadius: -5,
                       offset: const Offset(0, -10),
@@ -238,7 +238,7 @@ class _AnaEkranDurumu extends State<AnaEkran> with TickerProviderStateMixin {
                           style: TextStyle(
                               fontSize: 28,
                               fontWeight: FontWeight.w500,
-                              color: Colors.grey.shade800), // Metin rengi daha koyu
+                              color: Colors.grey.shade800),
                         ),
                       ),
                     ),
@@ -271,7 +271,7 @@ class _AnaEkranDurumu extends State<AnaEkran> with TickerProviderStateMixin {
                                 BorderRadius.circular(butonBoyutu / 2),
                                 boxShadow: [
                                   BoxShadow(
-                                    color: const Color.fromARGB(179, 0, 191, 165), // DÜZELTİLDİ
+                                    color: const Color.fromARGB(179, 0, 191, 165),
                                     blurRadius: glowSize,
                                     spreadRadius: glowSize / 2,
                                   ),
